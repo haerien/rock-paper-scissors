@@ -23,7 +23,7 @@ function playRound(computerChoice, playerChoice){
         if (winCheck==1){playerScore.innerText++; result.innerText = (`${playerChoice} beats ${computerChoice}. You win!`);}
         else {computerScore.innerText++; result.innerText = (`${computerChoice} beats ${playerChoice}. You lose!`);}
     
-        if(playerScore.innerText=="5" || computerScore==5){
+        if(playerScore.innerText=="5" || computerScore.innerText==5){
             if (computerScore.innerText > playerScore.innerText) result.innerText="Computer won!";
             else result.innerText="Player won!";
         }
