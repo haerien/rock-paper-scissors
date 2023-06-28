@@ -37,6 +37,11 @@ body{
     color: honeydew;
 }
 
+.score{
+    color: rgb(184, 54, 54);
+    text-shadow: 0 2px white;
+}
+
 #buttons{
     display: flex;
     flex-direction: row;
@@ -56,4 +61,5 @@ button{
     align-items: center;
     justify-content: center;
     padding: 25px;
+    gap: 16px;
 }
